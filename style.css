@@ -203,7 +203,7 @@ footer img{
     margin-bottom: 1%;
 }
 
-/* Começo da Pagina Experiencia*/
+/*Pagina Experiencia*/
 
 .Logo-Empresa{
     width: 180px;
@@ -238,6 +238,28 @@ footer img{
     margin-bottom: 2%;
 }
 
+/*Pagina Certificado*/
+
+.link-certificado{
+    color: rgb(0, 217, 255);
+    text-decoration:none;
+    transition: 600ms all;
+    font-weight: bold;
+}
+
+.link-certificado:hover{
+    color: rgb(255, 255, 255);
+}
+
+.logo-certificados{
+    width: 140px;
+    float: left;
+    margin: 0 20px 60px 0;
+    border-radius: 15px;
+}
+
+/*Dropdawn todas as paginas*/
+
 @media screen and (max-width: 970px){
 
     .principal, .redes, .conhecimento{
@@ -245,7 +267,7 @@ footer img{
     }
 
     nav a{
-        font-size: 14px;
+        font-size: 10.5px;
     }
 
     .principal p{
@@ -257,7 +279,7 @@ footer img{
         text-align: center;
     }
 
-    .Foto-perfil, .Logo-Empresa, .Logo-Kampjo{
+    .Foto-perfil, .Logo-Empresa, .Logo-Kampjo, .logo-certificados{
         width: 40%;
         float: none;
         display: inline-block;
