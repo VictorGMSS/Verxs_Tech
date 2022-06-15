@@ -12,9 +12,9 @@ header{
 .home-header img{
     vertical-align: left;
     top: 30px;
-    height: 65px; 
+    height: 55px; 
     display: inline-block;
-    margin-left: 40px;
+    margin: 0 0 5px 40px;
 }
 
 nav{
