@@ -185,6 +185,7 @@ main{
 
 .conhecimento-lista input:hover{
     background-color: rgb(9, 146, 170);
+    cursor: pointer;
     color: white;
 }
 
