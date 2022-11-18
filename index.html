@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" type="imagem/png" href="Imagens\Logo_principal.png" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Portfolio Victor</title>
 </head>
 
@@ -18,13 +19,20 @@
         <div class="home-header">
             <h1><img src="Imagens\Portfolio_logo.png" alt="Logo do Portfólio"></h1>
             
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="experiências.html">Experiências</a></li>
-                    <li><a href="certificados.html">Certificados</a></li>
-                    <li><a href="Curriculo\Victor Gabriel curriculo.pdf" download="Victor Gabriel curriculo.pdf">Curriculo</a></li>
-                    <li><a href="mailto:souzavictor51@yahoo.com.br?subject=Vi%20seu%20portfolio&amp;body=Escreva%20uma%20mensagem%20aqui%2C%20obrigado%20por%20entrar%20em%20contato.">Contato</a></li>
+            <nav class="menu">
+
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                <i class="button">&#9776;</i>
+                </label>
+
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="index.html"> Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="conhecimentos.html"> Conhecimentos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="experiências.html">Experiências</a></li>
+                    <li class="menu__item"><a class="menu__link" href="certificados.html">Certificados</a></li>
+                    <li class="menu__item"><a class="menu__link" href="Curriculo\Victor Gabriel curriculo.pdf" download="Victor Gabriel curriculo.pdf">Curriculo</a></li>
+                    <li class="menu__item"><a class="menu__link" href="mailto:souzavictor51@yahoo.com.br?subject=Vi%20seu%20portfolio&amp;body=Escreva%20uma%20mensagem%20aqui%2C%20obrigado%20por%20entrar%20em%20contato.">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,7 +42,7 @@
         <!--Section da introdução-->
         <section class="principal">
 
-            <img class="Foto-perfil" src="Imagens\Victor_Gabriel.jpg" alt="Foto de rosto do Victor Gabriel">
+            <img class="Foto-perfil" src="Imagens\Victor_Gabriel.jpg" alt="Foto de rosto do Victor Gabriel, homem pardo de óculos de lente e cabelo preto">
 
             <h3 class="sobre-home">Sobre</h3>  
 
@@ -65,65 +73,6 @@
                 <li><a href="https://www.instagram.com/verxs_tech/" target="_blank"><img src="Imagens\instagram.png" alt="Logo do Instagram, com link para o perfil de Victor Gabriel"></a></li>
                 <li><a href="https://twitter.com/Verxs_Tech" target="_blank"><img src="Imagens\Twitter_logo.png" alt="Logo do Twitter, com link para o perfil de Victor Gabriel"></a></li>
             </ul>
-        </section>
-
-        <section class="conhecimento">
-            <h2>Meus Conhecimentos</h2>
-            <ul class="conhecimento-lista">
-                <li>
-                    <h3>HTML5</h3>
-                    <a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/" target="_blank"><img src="Imagens\html5.png" alt="Logo do HTML5"></a>
-                    <p><a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/" target="_blank"><input type="submit" value="Sobre HTML5" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>CSS3</h3><a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank"><img src="Imagens\css.png" alt="Logo do CSS3"></a>
-                    <p><a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank"><input type="submit" value="Sobre CSS3" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>JavaScript</h3><a href="https://kenzie.com.br/blog/javascript/" target="_blank"><img src="Imagens\javascript.png" alt="Logo do JavaScript"></a>
-                    <p><a href="https://kenzie.com.br/blog/javascript/" target="_blank"><input type="submit" value="Sobre Javascript" class="enviar"></a></p>
-                    
-                </li>
-            </ul>
-
-            <ul class="conhecimento-lista">
-                <li>
-                    <h3>Python</h3><a href="https://kenzie.com.br/blog/o-que-e-python/" target="_blank"><img src="Imagens\Python.png" alt="Logo da linguagem de programação Python"></a>
-                    <p><a href="https://kenzie.com.br/blog/o-que-e-python/" target="_blank"><input type="submit" value="Sobre Python" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>PostgreSQL</h3><a href="https://www.devmedia.com.br/introducao-ao-postgresql/6390" target="_blank"><img src="Imagens\Postgresql.png" alt="Logo do banco de dados PostgreSQL"></a>
-                    <p><a href="https://www.devmedia.com.br/introducao-ao-postgresql/6390" target="_blank"><input type="submit" value="Sobre PostgreSQL" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>Pacote Office</h3><a href="https://www.techtudo.com.br/noticias/2020/01/o-que-e-pacote-office-conheca-os-programas-de-produtividade.ghtml" target="_blank"><img src="Imagens\Microsoft_Office_logo.png" alt="Logo do Pacote Office"></a>
-                    <p><a href="https://www.techtudo.com.br/noticias/2020/01/o-que-e-pacote-office-conheca-os-programas-de-produtividade.ghtml" target="_blank"><input type="submit" value="Sobre Office" class="enviar"></a></p>
-                </li>
-            </ul>
-
-            <ul class="conhecimento-lista">
-                <li>
-                    <h3>ReacJS</h3><a href="https://kenzie.com.br/blog/react/" target="_blank"><img src="Imagens\Logo_React.png" alt="Logo do Framework ReactJS"></a>
-                    <p><a href="https://kenzie.com.br/blog/react/" target="_blank"><input type="submit" value="Sobre ReacJS" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>NodeJS</h3><a href="https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/" target="_blank"><img src="Imagens\Logo_NodeJS.png" alt="Logo do NodeJS"></a>
-                    <p><a href="https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/" target="_blank"><input type="submit" value="Sobre NodeJS" class="enviar"></a></p>
-                </li>
-
-                <li>
-                    <h3>Django</h3><a href="https://kenzie.com.br/blog/django/" target="_blank"><img src="Imagens\Logo_Django.png" alt="Logo do framework Django"></a>
-                    <p><a href="https://kenzie.com.br/blog/django/" target="_blank"><input type="submit" value="Sobre Django" class="enviar"></a></p>
-                </li>
-
-                
-            </ul>
-            
         </section>
     </main>
 
