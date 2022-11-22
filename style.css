@@ -229,11 +229,10 @@ nav a:hover{
 
     .linha{
         width: 101.5%;
-        height: 0.1px;
         margin: 16px 0px 0px 0px;
         color: white;
     }
-    
+
     .menu{
         height: 5px;
         margin: 12px 0 0 0;
