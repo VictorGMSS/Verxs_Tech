@@ -111,6 +111,11 @@ nav a:hover{
         margin: 0.5rem 1.9rem 0 0;
     }
 
+    header{
+        position: fixed;
+        width: 98%;
+    }
+
 }
 
 .checkbtn {
@@ -219,8 +224,6 @@ nav a:hover{
 		transition: all .5s;
 	}
 }
-
-
 
 @media(max-width: 858px){
 
@@ -480,6 +483,10 @@ footer img{
         width: auto;
     }
 
+    .principal{
+        margin: 0px auto;
+    }
+
     nav a{
         font-size: 10.5px;
     }
@@ -497,7 +504,7 @@ footer img{
         width: 40%;
         float: none;
         display: inline-block;
-        margin: 0 0 10% 28%;
+        margin: 6rem 0 10% 28%;
     }
 
     .redes-lista img{
@@ -516,4 +523,23 @@ footer img{
         width: 30%;
         margin-bottom: 2em;
     }
+
+    .Logo-Empresa{
+        margin: 2rem 0 10% 28%;
+    }
+
+    .Ford, .unisantos, .Mconhecimentos{
+        margin: 7rem 0 0 0;
+    }
+
+    .conhecimento{
+        margin: 0px auto;
+    }
+}
+
+.linha{
+    width: 101.5%;
+    height: 0.1px;
+    margin: 16px 0px 0px 0px;
+    color: white;
 }
